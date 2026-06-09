@@ -1,10 +1,50 @@
-# Awesome Robot Learning for Bimanual Manipulation
+<h1 align="center">Awesome Robot Learning for Bimanual Manipulation</h1>
 
-A curated paper list for **robot learning in bimanual and dual-arm manipulation**, spanning foundation models, vision-language-action models, world models, generative policies, imitation learning, reinforcement learning, reasoning, planning, datasets, and benchmarks.
+<p align="center">
+  A living collection of papers, code, datasets, benchmarks, and other resources for learning-based bimanual and dual-arm manipulation.
+</p>
 
-This list focuses on methods that explicitly study two-arm coordination or report meaningful bimanual evaluation. It is a living resource rather than an exhaustive survey.
+<p align="center">
+  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/stargazers"><img src="https://img.shields.io/github/stars/Destiny000621/awesome-bimanual-robot-learning?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/network/members"><img src="https://img.shields.io/github/forks/Destiny000621/awesome-bimanual-robot-learning?style=social" alt="GitHub forks"></a>
+  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+  <img src="https://img.shields.io/badge/papers-70%2B-blue" alt="70+ papers">
+</p>
+
+This collection spans foundation models, LLM/VLM reasoning, vision-language-action models, world models, generative policies, imitation learning, reinforcement learning, planning, datasets, and benchmarks. It focuses on methods that explicitly study two-arm coordination or report meaningful bimanual evaluation.
+
+> This is a curated, evolving bibliography rather than an exhaustive survey. Preprints are included and may change after peer review.
 
 **Last updated: June 9, 2026**
+
+## News
+
+- **[2026-06-09]** Released the first categorized paper list with more than 70 entries.
+- **[2026-06-09]** Added explicit distinctions between bimanual-specific methods, broader bimanual-evaluated methods, and related general robot-learning foundations.
+
+## What Is Robot Learning for Bimanual Manipulation?
+
+Robot learning for bimanual manipulation studies how a robot can acquire perception, reasoning, coordination, and control capabilities for tasks involving two arms. Beyond generating two action streams, a capable system must learn when the arms should cooperate tightly, work independently in parallel, assume asymmetric roles, hand objects over, or sequence actions around shared spatial and physical constraints.
+
+This repository emphasizes the learning questions that distinguish modern bimanual systems:
+
+- How are cross-arm dependencies and coordination represented?
+- How do policies generalize across objects, tasks, embodiments, and environments?
+- Can reusable unimanual skills be composed into efficient bimanual behavior?
+- How do high-level planners coordinate low-level learned policies?
+- How should demonstrations, synthetic data, simulation, and real-world experience be combined?
+- How are safety, failures, uncertainty, and recovery evaluated?
+
+## Organization
+
+Papers are organized by their **primary system contribution**, while tags capture overlapping properties. The collection can also be read along four complementary axes:
+
+| Axis | Examples |
+|---|---|
+| System role | reasoning, planning, representation, world modeling, low-level control |
+| Learning paradigm | imitation learning, reinforcement learning, self-supervision, post-training |
+| Policy family | VLA, diffusion, flow matching, transformer, world-model policy |
+| Coordination structure | tightly coupled, asymmetric, parallel, sequential, resource-aware |
 
 ## Scope and Tags
 
@@ -32,6 +72,8 @@ This list focuses on methods that explicitly study two-arm coordination or repor
 - [Datasets, Benchmarks, and Platforms](#datasets-benchmarks-and-platforms)
 - [Related General Robot-Learning Methods](#related-general-robot-learning-methods)
 - [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Star History](#star-history)
 
 ## Surveys and Taxonomies
 
@@ -134,7 +176,7 @@ These papers are not exclusively about bimanual manipulation, but are frequently
 
 ## Contributing
 
-Contributions are welcome through pull requests or issues.
+This project is actively maintained, and contributions are welcome through [pull requests](https://github.com/Destiny000621/awesome-bimanual-robot-learning/pulls) or [issues](https://github.com/Destiny000621/awesome-bimanual-robot-learning/issues). Missing papers, corrected metadata, code releases, project pages, and improved classifications are all useful contributions.
 
 Please add papers only when they satisfy at least one criterion:
 
@@ -153,7 +195,14 @@ Please prefer the archival paper or arXiv abstract URL, verify the title and yea
 ## Related Collections
 
 - [awesome-bimanual-manipulation](https://github.com/Skylark0924/awesome-bimanual-manipulation): broad collection covering learning, modeling, planning, control, teleoperation, devices, and applications.
+- [Awesome RL for Multimodal Foundation Models](https://github.com/weijiawu/Awesome-RL-for-Multimodal-Foundation-Models): a large, actively maintained bibliography whose presentation and contribution workflow inspired parts of this repository.
 
-## Acknowledgment
+## Acknowledgments
 
 This repository builds on the community effort behind existing bimanual-manipulation bibliographies while focusing specifically on modern robot learning and foundation-model methods.
+
+If this collection helps your research, please consider giving it a star and contributing missing work.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Destiny000621/awesome-bimanual-robot-learning&type=Date)](https://www.star-history.com/#Destiny000621/awesome-bimanual-robot-learning&Date)
