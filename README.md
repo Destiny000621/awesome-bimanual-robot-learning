@@ -168,7 +168,6 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 These papers are not exclusively about bimanual manipulation, but are frequently used as architectures, baselines, or conceptual foundations in bimanual work.
 
-- **VLAs as Tools: A Hierarchical Framework for Large-Scale Robot Learning**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.13119)] `VLA` `Tool Use` `Hierarchical`
 - **pi0.5: A Vision-Language-Action Model with Open-World Generalization**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2504.16054)] `FM` `VLA` `Bimanual-evaluated`
 - **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success**. *RSS, 2025.* [[paper](https://arxiv.org/abs/2502.19645)] [[project](https://openvla-oft.github.io/)] [[code](https://github.com/moojink/openvla-oft)] `VLA` `Fine-Tuning` `Bimanual-evaluated` `Real`
 - **pi0: A Vision-Language-Action Flow Model for General Robot Control**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2410.24164)] `FM` `VLA` `Flow` `Bimanual-evaluated`
