@@ -117,7 +117,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **Large Language Models for Orchestrating Bimanual Robots**. *Humanoids, 2024.* [[paper](https://arxiv.org/abs/2404.02018)] [[project](https://labor-agent.github.io/)] `LLM` `Planning` `Skill Composition` `Sim`
 - **Efficient Bimanual Manipulation Using Learned Task Schemas**. *ICRA, 2020.* [[paper](https://arxiv.org/abs/1909.13874)] `RL` `Skill Composition` `Real` `Sim`
 - **Learning and Composing Primitive Skills for Dual-Arm Manipulation**. *arXiv, 2019.* [[paper](https://arxiv.org/abs/1905.10578)] `IL` `Skill Composition` `Real`
-- **A Certified-Complete Bimanual Manipulation Planner**. *IEEE T-ASE, 2018.* [[paper](https://doi.org/10.1109/TASE.2017.2780115)] `Planning`
+- **A Certified-Complete Bimanual Manipulation Planner**. *IEEE T-ASE, 2018.* [[paper](https://arxiv.org/abs/1705.02573)] `Planning`
 
 ## Imitation Learning and Coordination Representations
 
@@ -140,7 +140,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **Bi-Manual Manipulation and Attachment via Sim-to-Real Reinforcement Learning**. *arXiv, 2022.* [[paper](https://arxiv.org/abs/2203.08277)] `RL` `Sim-to-Real` `Real` `Sim`
 - **DAIR: Disentangled Attention Intrinsic Regularization for Safe and Efficient Bimanual Manipulation**. *ICLR, 2022.* [[paper](https://arxiv.org/abs/2106.05907)] [[project](https://mehooz.github.io/bimanual-attention)] `RL` `Safety` `Coordination` `Sim`
 - **Bimanual Regrasping for Suture Needles Using Reinforcement Learning for Rapid Motion Planning**. *arXiv, 2020.* [[paper](https://arxiv.org/abs/2011.04813)] `RL` `Planning` `Surgical`
-- **Exploiting Symmetries in Reinforcement Learning of Bimanual Robotic Tasks**. *IEEE RA-L, 2019.* [[paper](https://doi.org/10.1109/LRA.2019.2894624)] `RL` `Symmetry` `Sim`
+- **Exploiting Symmetries in Reinforcement Learning of Bimanual Robotic Tasks**. *IEEE RA-L, 2019.* [[paper](https://ieeexplore.ieee.org/document/8637816)] `RL` `Symmetry` `Sim`
 - **Extracting Bimanual Synergies with Reinforcement Learning**. *IROS, 2017.* [[paper](https://doi.org/10.1109/IROS.2017.8206356)] `RL` `Synergy`
 
 ## Humanoid and Dexterous Bimanual Learning
@@ -162,7 +162,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **Empowering Embodied Manipulation: A Bimanual-Mobile Robot Manipulation Dataset for Household Tasks**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2405.18860)] [[project](https://embodiedrobot.github.io/)] `Dataset` `Mobile Manipulation` `Real`
 - **RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins**. *CVPR, 2024.* [[paper](https://arxiv.org/abs/2409.02920)] [[project](https://robotwin-platform.github.io/)] `Benchmark` `Data Generation` `Sim`
 - **The KIT Bimanual Manipulation Dataset**. *Humanoids, 2021.* [[paper](https://doi.org/10.1109/HUMANOIDS47582.2021.9555788)] [[dataset](https://motion-database.humanoids.kit.edu/)] `Dataset` `Human Motion`
-- **Benchmarking Bimanual Cloth Manipulation**. *IEEE RA-L, 2020.* [[paper](https://doi.org/10.1109/LRA.2019.2956870)] `Benchmark` `Deformable` `Real`
+- **Benchmarking Bimanual Cloth Manipulation**. *IEEE RA-L, 2020.* [[paper](https://ieeexplore.ieee.org/document/8957044)] `Benchmark` `Deformable` `Real`
 
 ## Related General Robot-Learning Methods
 
