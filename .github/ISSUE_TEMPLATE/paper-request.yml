@@ -1,8 +1,6 @@
 name: Paper request
 description: Suggest a missing paper, dataset, benchmark, or resource
 title: "[Paper] "
-labels:
-  - paper-request
 body:
   - type: markdown
     attributes:
