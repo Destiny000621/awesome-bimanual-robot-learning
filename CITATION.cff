@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If this repository helps your research, please cite it using the metadata below."
+title: "Awesome Robot Learning for Bimanual Manipulation"
+type: software
+authors:
+  - name: "Destiny000621"
+repository-code: "https://github.com/Destiny000621/awesome-bimanual-robot-learning"
+url: "https://github.com/Destiny000621/awesome-bimanual-robot-learning"
+abstract: "A curated bibliography for robot learning in bimanual and dual-arm manipulation, including foundation models, VLA, world models, diffusion, flow, imitation learning, reinforcement learning, planning, datasets, and benchmarks."
+keywords:
+  - bimanual manipulation
+  - dual-arm manipulation
+  - robot learning
+  - vision-language-action models
+  - world models
+  - imitation learning
+  - reinforcement learning
+  - robot benchmarks
+date-released: "2026-06-09"
