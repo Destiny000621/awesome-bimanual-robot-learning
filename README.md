@@ -15,6 +15,8 @@ This collection spans foundation models, LLM/VLM reasoning, vision-language-acti
 
 > This is a curated, evolving bibliography rather than an exhaustive survey. Preprints are included and may change after peer review.
 
+For a narrative synthesis of the field, see [A Survey of Robot Learning for Bimanual Manipulation](SURVEY.md).
+
 **Last updated: June 9, 2026**
 
 ## News
