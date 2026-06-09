@@ -128,8 +128,8 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation**. *CoRL, 2024.* [[paper](https://arxiv.org/abs/2401.02117)] [[project](https://mobile-aloha.github.io/)] `IL` `Mobile Manipulation` `Real`
 - **Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware**. *RSS, 2023.* [[paper](https://arxiv.org/abs/2304.13705)] [[project](https://tonyzhaozh.github.io/aloha/)] [[code](https://github.com/tonyzhaozh/aloha)] `IL` `ACT` `Real`
 - **Stabilize to Act: Learning to Coordinate for Bimanual Manipulation**. *CoRL, 2023.* [[paper](https://arxiv.org/abs/2309.01087)] [[project](https://sites.google.com/view/stabilizetoact)] `IL` `Role Assignment` `Real`
-- **Passive Bimanual Skills Learning from Demonstration with Motion Graph Attention Networks**. *IEEE RA-L, 2022.* [[paper](https://doi.org/10.1109/LRA.2022.3151173)] `IL` `Graph Network` `Real`
-- **Robot Peels Banana with Goal-Conditioned Dual-Action Deep Imitation Learning**. *arXiv, 2022.* [[paper](https://arxiv.org/abs/2203.09749)] `IL` `Real`
+- **Passive Bimanual Skills Learning from Demonstration with Motion Graph Attention Networks**. *IEEE RA-L, 2022.* [[paper](https://ieeexplore.ieee.org/document/9720487)] `IL` `Graph Network` `Real`
+- **Goal-conditioned Dual-Action Imitation Learning for Dexterous Dual-Arm Robot Manipulation**. *arXiv, 2022.* [[paper](https://arxiv.org/abs/2203.09749)] `IL` `Real`
 - **Transformer-Based Deep Imitation Learning for Dual-Arm Robot Manipulation**. *IROS, 2021.* [[paper](https://arxiv.org/abs/2108.00385)] `IL` `Transformer` `Real`
 - **Deep Imitation Learning for Bimanual Robotic Manipulation**. *NeurIPS Workshop, 2020.* [[paper](https://arxiv.org/abs/2010.05134)] `IL` `Real`
 
@@ -148,19 +148,19 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2510.08475)] `Humanoid` `Dexterous` `IL` `Video` `Sim`
 - **HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2507.00833)] `Humanoid` `LLM` `Data Generation` `Sim`
 - **Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2410.02477)] `Humanoid` `Dexterous` `RL` `IL` `Sim`
-- **Bi-Touch: Bimanual Tactile Manipulation with Sim-to-Real Deep Reinforcement Learning**. *IEEE Robotics and Automation Letters, 2023.* [[paper](https://arxiv.org/abs/2305.09993)] `Tactile` `RL` `Sim-to-Real` `Real` `Sim`
+- **Bi-Touch: Bimanual Tactile Manipulation with Sim-to-Real Deep Reinforcement Learning**. *IEEE Robotics and Automation Letters, 2023.* [[paper](https://arxiv.org/abs/2307.06423)] `Tactile` `RL` `Sim-to-Real` `Real` `Sim`
 
 ## Datasets, Benchmarks, and Platforms
 
 - **BiCoord: A Bimanual Manipulation Benchmark towards Long-Horizon Spatial-Temporal Coordination**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2604.05831)] [[project](https://buaa-colalab.github.io/BiCoord/)] `Benchmark` `Long-Horizon` `Coordination` `Sim`
-- **BiManiBench: A Hierarchical Benchmark for Evaluating Bimanual Coordination of Multimodal Large Language Models**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2602.08392)] `Benchmark` `MLLM` `Planning` `Control`
+- **ST-BiBench: Benchmarking Multi-Stream Multimodal Coordination in Bimanual Embodied Tasks for MLLMs**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2602.08392)] `Benchmark` `MLLM` `Planning` `Control`
 - **RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2511.17441)] [[project](https://FlagOpen.github.io/RoboCOIN/)] `Dataset` `Multi-Embodiment` `Real`
 - **RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2507.00435)] [[project](https://robo-eval.github.io/)] `Benchmark` `Diagnostics` `Dataset` `Sim`
 - **Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2506.23351)] [[challenge](https://robotwin-benchmark.github.io/cvpr-2025-challenge/)] `Benchmark` `Real` `Sim`
 - **RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2506.18088)] [[project](https://robotwin-platform.github.io/)] [[code](https://github.com/robotwin-Platform/robotwin)] `Benchmark` `Dataset` `Domain Randomization` `Sim-to-Real`
-- **TWIN: Two-handed Intelligent Benchmark for Bimanual Manipulation (formerly PerAct2)**. *ICRA, 2025.* [[paper](https://arxiv.org/abs/2407.00278)] [[project](http://bimanual.github.io/)] `Benchmark` `VLA` `IL` `Sim`
+- **PerAct2: Benchmarking and Learning for Robotic Bimanual Manipulation Tasks**. *CoRL Workshop, 2024.* [[paper](https://arxiv.org/abs/2407.00278)] [[project](http://bimanual.github.io/)] `Benchmark` `VLA` `IL` `Sim`
 - **Empowering Embodied Manipulation: A Bimanual-Mobile Robot Manipulation Dataset for Household Tasks**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2405.18860)] [[project](https://embodiedrobot.github.io/)] `Dataset` `Mobile Manipulation` `Real`
-- **RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins**. *CVPR, 2024.* [[paper](https://arxiv.org/abs/2404.13085)] [[project](https://robotwin-platform.github.io/)] `Benchmark` `Data Generation` `Sim`
+- **RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins**. *CVPR, 2024.* [[paper](https://arxiv.org/abs/2409.02920)] [[project](https://robotwin-platform.github.io/)] `Benchmark` `Data Generation` `Sim`
 - **The KIT Bimanual Manipulation Dataset**. *Humanoids, 2021.* [[paper](https://doi.org/10.1109/HUMANOIDS47582.2021.9555788)] [[dataset](https://motion-database.humanoids.kit.edu/)] `Dataset` `Human Motion`
 - **Benchmarking Bimanual Cloth Manipulation**. *IEEE RA-L, 2020.* [[paper](https://doi.org/10.1109/LRA.2019.2956870)] `Benchmark` `Deformable` `Real`
 
