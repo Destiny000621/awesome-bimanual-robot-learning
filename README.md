@@ -78,7 +78,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 ## Surveys and Taxonomies
 
 - **A Bimanual Manipulation Taxonomy**. *IEEE Robotics and Automation Letters, 2022.* [[paper](https://doi.org/10.1109/LRA.2022.3196158)] `Taxonomy` `Coordination`
-- **Reinforcement Learning of Bimanual Robot Skills**. *Robot Learning, 2020.* [[paper](https://doi.org/10.1007/978-3-030-26326-3_15)] `Survey` `RL`
+- **Reinforcement Learning of Bimanual Robot Skills**. *Robot Learning, 2020.* [[book](https://link.springer.com/book/10.1007/978-3-030-26326-3)] `Survey` `RL`
 - **A Survey of Dual-Arm Robotic Issues on Assembly Tasks**. *Robot Design, Dynamics and Control, 2019.* [[paper](https://doi.org/10.1007/978-3-319-78963-7_59)] `Survey` `Assembly`
 - **Dual Arm Manipulation--A Survey**. *Robotics and Autonomous Systems, 2012.* [[paper](https://doi.org/10.1016/j.robot.2012.07.005)] `Survey`
 
