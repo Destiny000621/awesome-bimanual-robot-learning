@@ -72,6 +72,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 - [Datasets, Benchmarks, and Platforms](#datasets-benchmarks-and-platforms)
 - [Related General Robot-Learning Methods](#related-general-robot-learning-methods)
 - [Contributing](#contributing)
+- [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 - [Star History](#star-history)
 
@@ -191,6 +192,20 @@ Use the following format:
 ```
 
 Please prefer the archival paper or arXiv abstract URL, verify the title and year, place the paper in its primary methodological category, and avoid duplicate entries.
+
+## Citation
+
+If this repository helps your research, please consider citing it:
+
+```bibtex
+@misc{awesome_bimanual_robot_learning,
+  title        = {Awesome Robot Learning for Bimanual Manipulation},
+  author       = {Destiny000621},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Destiny000621/awesome-bimanual-robot-learning}},
+  note         = {A curated bibliography for robot learning in bimanual and dual-arm manipulation}
+}
+```
 
 ## Related Collections
 
