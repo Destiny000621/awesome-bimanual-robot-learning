@@ -200,7 +200,7 @@ If this repository helps your research, please consider citing it:
 ```bibtex
 @misc{awesome_bimanual_robot_learning,
   title        = {Awesome Robot Learning for Bimanual Manipulation},
-  author       = {Destiny000621},
+  author       = {Sichang Su},
   year         = {2026},
   howpublished = {\url{https://github.com/Destiny000621/awesome-bimanual-robot-learning}},
   note         = {A curated bibliography for robot learning in bimanual and dual-arm manipulation}
