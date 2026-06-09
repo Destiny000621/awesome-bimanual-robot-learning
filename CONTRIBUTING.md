@@ -4,6 +4,8 @@ Thank you for helping maintain Awesome Robot Learning for Bimanual Manipulation.
 
 ## Adding a Paper
 
+You can submit a pull request directly or open a structured **Paper request** issue if you would prefer the maintainers to add it.
+
 Before opening a pull request:
 
 1. Confirm that the paper explicitly studies bimanual or dual-arm robot learning, introduces a relevant dataset or benchmark, or provides substantive bimanual evaluation.
