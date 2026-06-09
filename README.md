@@ -170,6 +170,7 @@ These papers are not exclusively about bimanual manipulation, but are frequently
 
 - **VLAs as Tools: A Hierarchical Framework for Large-Scale Robot Learning**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.13119)] `VLA` `Tool Use` `Hierarchical`
 - **pi0.5: A Vision-Language-Action Model with Open-World Generalization**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2504.16054)] `FM` `VLA` `Bimanual-evaluated`
+- **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success**. *RSS, 2025.* [[paper](https://arxiv.org/abs/2502.19645)] [[project](https://openvla-oft.github.io/)] [[code](https://github.com/moojink/openvla-oft)] `VLA` `Fine-Tuning` `Bimanual-evaluated` `Real`
 - **pi0: A Vision-Language-Action Flow Model for General Robot Control**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2410.24164)] `FM` `VLA` `Flow` `Bimanual-evaluated`
 - **3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations**. *RSS, 2024.* [[paper](https://arxiv.org/abs/2403.03954)] [[project](https://3d-diffusion-policy.github.io/)] `Diffusion` `IL` `Bimanual Baseline`
 - **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**. *RSS, 2023.* [[paper](https://arxiv.org/abs/2303.04137)] [[project](https://diffusion-policy.cs.columbia.edu/)] `Diffusion` `IL` `Bimanual Baseline`
