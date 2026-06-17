@@ -17,7 +17,13 @@ This collection spans foundation models, LLM/VLM reasoning, vision-language-acti
 
 For a narrative synthesis of the field, see [A Survey of Robot Learning for Bimanual Manipulation](SURVEY.md).
 
-**Last updated: June 9, 2026**
+**Last updated: June 16, 2026**
+
+## Open to Survey Collaboration
+
+This repository is maintained as a living bibliography for robot learning in bimanual and dual-arm manipulation. I am open to collaborating with researchers who are interested in turning this collection into a survey paper or structured field map.
+
+Potential directions include taxonomy design, historical coverage, foundation-model methods, bimanual benchmarks, real-robot systems, and open challenges for scalable dual-arm manipulation. Contributions, corrections, and expert suggestions are welcome through issues or pull requests.
 
 ## News
 
