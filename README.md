@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/stargazers"><img src="https://img.shields.io/github/stars/Destiny000621/awesome-bimanual-robot-learning?style=social" alt="GitHub stars"></a>
-  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/network/members"><img src="https://img.shields.io/github/forks/Destiny000621/awesome-bimanual-robot-learning?style=social" alt="GitHub forks"></a>
+  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/stargazers"><img src="https://img.shields.io/badge/GitHub-star_this_repo-yellow?logo=github" alt="Star this repository"></a>
+  <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/fork"><img src="https://img.shields.io/badge/GitHub-fork_this_repo-lightgrey?logo=github" alt="Fork this repository"></a>
   <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
   <img src="https://img.shields.io/badge/papers-70%2B-blue" alt="70+ papers">
 </p>
