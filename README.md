@@ -135,7 +135,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 - **VLBiMan++: Expanding the Generalization Boundary of Vision-Language Anchored One-Shot Bimanual Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.14310)] [[project](https://hnuzhy.github.io/projects/VLBiManPlus/)] [[code](https://github.com/hnuzhy/BiRoMan)] `VLM` `Planning` `One-Shot` `Skill Composition` `Real`
   Extends VLBiMan with object-state-aware adaptation and closed-loop skill composition across objects, scenes, embodiments, and execution disturbances.
 - **ENPIRE: Agentic Robot Policy Self-Improvement in the Real World**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2606.19980)] [[project](https://research.nvidia.com/labs/gear/enpire/)] [[code](https://github.com/NVlabs/ENPIRE)] `LLM` `Agentic Learning` `RL` `Bimanual-evaluated` `Real` `Sim`
-  Coding-agent infrastructure for reset, outcome verification, policy improvement, and evaluation; includes a fleet of bimanual YAM stations and multiple learning regimes.
+  Coding-agent infrastructure for reset, outcome verification, policy improvement, and evaluation; includes a fleet of bimanual [I2RT YAM](https://i2rt.com/collections/yam-arm) stations and multiple learning regimes.
 - **What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2606.10267)] [[project](https://jiahenghu.github.io/hi-vla/)] `VLM` `VLA` `Planning` `Hierarchy` `Bimanual-evaluated` `Real` `Sim`
   Studies planner-controller interfaces, switching, observations, and memory in hierarchical VLA systems, including real ALOHA evaluation.
 - **Bimanual Robot Manipulation via Multi-Agent In-Context Learning**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2604.20348)] `LLM` `Planning` `In-Context Learning` `Sim`
@@ -173,7 +173,7 @@ Papers are organized by their **primary system contribution**, while tags captur
 ## Reinforcement Learning
 
 - **From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.21788)] [[project](https://destiny000621.github.io/PARTS/)] `RL` `Post-Training` `Residual RL` `Long-Horizon` `Bimanual-evaluated` `Real`
-  PARTS post-trains targeted residual corrections around a frozen pretrained policy, using subtask rewards for long-horizon manipulation. Real-world evaluation includes bimanual YAM earbud insertion and LEGO sorting, plus single-arm Franka cable manipulation.
+  PARTS post-trains targeted residual corrections around a frozen pretrained policy, using subtask rewards for long-horizon manipulation. Real-world evaluation includes earbud insertion and LEGO sorting on bimanual [I2RT YAM](https://i2rt.com/collections/yam-arm) systems, plus single-arm Franka cable manipulation.
 - **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.04355)] [[project](https://vla-precision.github.io/)] `VLA` `RL` `Post-Training` `Human-in-the-Loop` `Bimanual-evaluated` `Real`
   Online VLA post-training combines intervention-guided learning with calibrated value estimates; evaluation includes bimanual coordination in precision chemistry tasks.
 - **COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2502.08054)] `RL` `Self-Supervised` `Real` `Sim`
