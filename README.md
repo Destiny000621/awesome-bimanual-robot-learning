@@ -8,7 +8,7 @@
   <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/stargazers"><img src="https://img.shields.io/badge/GitHub-star_this_repo-yellow?logo=github" alt="Star this repository"></a>
   <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/fork"><img src="https://img.shields.io/badge/GitHub-fork_this_repo-lightgrey?logo=github" alt="Fork this repository"></a>
   <a href="https://github.com/Destiny000621/awesome-bimanual-robot-learning/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-  <img src="https://img.shields.io/badge/papers-70%2B-blue" alt="70+ papers">
+  <img src="https://img.shields.io/badge/papers-90-blue" alt="90 papers">
 </p>
 
 This collection spans foundation models, LLM/VLM reasoning, vision-language-action models, world models, generative policies, imitation learning, reinforcement learning, planning, datasets, and benchmarks. It focuses on methods that explicitly study two-arm coordination or report meaningful bimanual evaluation.
@@ -17,7 +17,7 @@ This collection spans foundation models, LLM/VLM reasoning, vision-language-acti
 
 For a narrative synthesis of the field, see [A Survey of Robot Learning for Bimanual Manipulation](SURVEY.md).
 
-**Last updated: June 16, 2026**
+**Last updated: September 28, 2026**
 
 ## Open to Survey Collaboration
 
@@ -27,6 +27,7 @@ Potential directions include taxonomy design, historical coverage, foundation-mo
 
 ## News
 
+- **[2026-09-28]** Added 20 recent and previously missing papers, bringing the bibliography to 90 entries. This refresh covers June-September 2026 releases and revisions, including PARTS, VLA-Precision, ENPIRE, JAMB, Vid2WAM, LingBot-VLA 2.0, and DuoBench.
 - **[2026-06-09]** Released the first categorized paper list with more than 70 entries.
 - **[2026-06-09]** Added explicit distinctions between bimanual-specific methods, broader bimanual-evaluated methods, and related general robot-learning foundations.
 
@@ -64,6 +65,8 @@ Papers are organized by their **primary system contribution**, while tags captur
 - `Diffusion` / `Flow`: generative action modeling
 - `IL`: imitation or behavior cloning
 - `RL`: reinforcement learning
+- `Post-Training`: adaptation of a pretrained robot policy
+- `YAM`: Yet Another Manipulator robot platform
 - `Planning`: task, skill, or motion planning
 - `Real`: includes physical-robot evaluation
 - `Sim`: simulation evaluation
@@ -86,6 +89,8 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Surveys and Taxonomies
 
+- **Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.06706)] `Survey` `VLA` `Coordination`
+  Broader VLA review with dedicated coverage of bimanual coordination, action representations, and training methods alongside aerial robotics.
 - **A Bimanual Manipulation Taxonomy**. *IEEE Robotics and Automation Letters, 2022.* [[paper](https://doi.org/10.1109/LRA.2022.3196158)] `Taxonomy` `Coordination`
 - **Reinforcement Learning of Bimanual Robot Skills**. *Robot Learning, 2020.* [[book](https://link.springer.com/book/10.1007/978-3-030-26326-3)] `Survey` `RL`
 - **A Survey of Dual-Arm Robotic Issues on Assembly Tasks**. *Robot Design, Dynamics and Control, 2019.* [[paper](https://doi.org/10.1007/978-3-319-78963-7_59)] `Survey` `Assembly`
@@ -93,6 +98,10 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Foundation and Generalist Models
 
+- **Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.03591)] `FM` `VLA` `IL` `DAgger` `Dataset` `Real`
+  XR-2 studies scaling with 1,500 hours of bimanual demonstrations and human-intervention DAgger corrections; the post-training method is imitation learning, not RL.
+- **From Foundation to Application: Improving VLA Models in Practice**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.06403)] [[code](https://github.com/robbyant/lingbot-vla-v2)] `FM` `VLA` `Multi-Embodiment` `Bimanual-evaluated` `Real`
+  LingBot-VLA 2.0 expands pretraining, whole-body action coverage, and predictive auxiliary learning for generalist and long-horizon mobile manipulation.
 - **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.30280)] `FM` `VLA` `Bimanual-evaluated` `Real` `Sim`
 - **DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.31286)] `FM` `VLA` `Deformable` `Real`
 - **Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.28486)] `VLA` `Real`
@@ -108,6 +117,12 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## World Models and Generative Policies
 
+- **JAMB: Joint Action-Motion Diffusion for Bimanual Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.25322)] `WM` `Diffusion` `IL` `Real` `Sim`
+  Jointly denoises dual-arm actions and future 3D point tracks, with evaluation on RoboTwin 2.0 and real-world bimanual tasks.
+- **Vid2WAM: Distilling Video Diffusion Priors into World Action Models**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2608.08558)] [[project](https://qch-fa.github.io/vid2wam-website/)] [[code](https://github.com/qch-FA/Vid2WAM)] `WM` `Diffusion` `Distillation` `Bimanual-evaluated` `Real` `Sim`
+  Distills generated futures and inferred actions into a compact world-action model; includes RoboTwin 2.0 and nine real-world bimanual tasks.
+- **Native Video-Action Pretraining for Generalizable Robot Control**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.08639)] `FM` `WM` `Video-Action` `Bimanual-evaluated` `Real` `Sim`
+  LingBot-VA 2.0 combines causal video-action pretraining, a semantic visual-action tokenizer, and asynchronous closed-loop inference; evaluated on RoboTwin and physical robots.
 - **Morphologically Equivariant Flow Matching for Bimanual Mobile Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2605.12228)] `Flow` `IL` `Real` `Sim`
 - **Foundational World Models Accurately Detect Bimanual Manipulator Failures**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2603.06987)] `WM` `Safety` `Failure Detection` `Sim`
 - **ManiFlow: A General Robot Manipulation Policy via Consistency Flow Training**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2509.01819)] [[project](https://maniflow-policy.github.io/)] `Flow` `IL` `Bimanual-evaluated` `Real` `Sim`
@@ -118,6 +133,12 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Reasoning, Planning, and Skill Composition
 
+- **VLBiMan++: Expanding the Generalization Boundary of Vision-Language Anchored One-Shot Bimanual Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.14310)] [[project](https://hnuzhy.github.io/projects/VLBiManPlus/)] [[code](https://github.com/hnuzhy/BiRoMan)] `VLM` `Planning` `One-Shot` `Skill Composition` `Real`
+  Extends VLBiMan with object-state-aware adaptation and closed-loop skill composition across objects, scenes, embodiments, and execution disturbances.
+- **ENPIRE: Agentic Robot Policy Self-Improvement in the Real World**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2606.19980)] [[project](https://research.nvidia.com/labs/gear/enpire/)] [[code](https://github.com/NVlabs/ENPIRE)] `LLM` `Agentic Learning` `RL` `Bimanual-evaluated` `YAM` `Real` `Sim`
+  Coding-agent infrastructure for reset, outcome verification, policy improvement, and evaluation; includes a fleet of bimanual YAM stations and multiple learning regimes.
+- **What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2606.10267)] [[project](https://jiahenghu.github.io/hi-vla/)] `VLM` `VLA` `Planning` `Hierarchy` `Bimanual-evaluated` `Real` `Sim`
+  Studies planner-controller interfaces, switching, observations, and memory in hierarchical VLA systems, including real ALOHA evaluation.
 - **Bimanual Robot Manipulation via Multi-Agent In-Context Learning**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2604.20348)] `LLM` `Planning` `In-Context Learning` `Sim`
 - **Learning to Plan & Schedule with Reinforcement-Learned Bimanual Robot Skills**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2510.25634)] `Planning` `Scheduling` `RL` `Sim`
 - **Reflective VLM Planning for Dual-Arm Desktop Cleaning: Bridging Open-Vocabulary Perception and Precise Manipulation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2506.17328)] `VLM` `Planning` `Reflection` `Sim`
@@ -130,6 +151,14 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Imitation Learning and Coordination Representations
 
+- **From Instrument-Mounted Demonstrations to In-Vivo Execution: Learning Bimanual Laparoscopic Appendectomy Without Robot-Collected Demonstrations**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.25625)] `IL` `Diffusion` `Surgical` `Dataset` `Real` `Sim`
+  Learns a bimanual surgical diffusion policy from instrument-mounted demonstrations; in-vivo evaluation retains surgeon-selected phase transitions.
+- **Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2608.03938)] `IL` `ACT` `Efficient Inference` `Real`
+  Studies sensing and quantized ACT deployment on an embedded Jetson using a bimanual SO-101 system.
+- **Language-Guided Dual-Mode Policy for Dual-Arm Manipulation**. *Sensors, 2026.* [[paper](https://www.mdpi.com/1424-8220/26/15/4883)] `IL` `Flow` `Coordination` `Mode Routing` `Real` `Sim`
+  LGDM routes language instructions to synchronous or asynchronous policy branches; the selected mode remains fixed during each task execution.
+- **One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.22119)] `IL` `Coordination` `Dynamic Environments` `Real` `Sim`
+  DynaMAC models the other arm as a dynamic task parameter and introduces DynaBench for evaluating moving objects and coordination perturbations.
 - **Ag2x2: Robust Agent-Agnostic Visual Representations for Zero-Shot Bimanual Manipulation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2507.19817)] `Representation` `Zero-Shot` `Sim`
 - **Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework**. *ICCV, 2025.* [[paper](https://arxiv.org/abs/2503.09186)] `IL` `Flow` `Representation` `Sim`
 - **InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation**. *CoRL, 2024.* [[paper](https://arxiv.org/abs/2409.07914)] [[project](https://soltanilara.github.io/interact/)] `IL` `Transformer` `Real` `Sim`
@@ -144,6 +173,10 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Reinforcement Learning
 
+- **From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.21788)] [[project](https://destiny000621.github.io/PARTS/)] `RL` `Post-Training` `Residual RL` `Long-Horizon` `Bimanual-evaluated` `YAM` `Real`
+  PARTS post-trains targeted residual corrections around a frozen pretrained policy, using subtask rewards for long-horizon manipulation. Real-world evaluation includes bimanual YAM earbud insertion and LEGO sorting, plus single-arm Franka cable manipulation.
+- **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.04355)] [[project](https://vla-precision.github.io/)] `VLA` `RL` `Post-Training` `Human-in-the-Loop` `Bimanual-evaluated` `Real`
+  Online VLA post-training combines intervention-guided learning with calibrated value estimates; evaluation includes bimanual coordination in precision chemistry tasks.
 - **COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2502.08054)] `RL` `Self-Supervised` `Real` `Sim`
 - **Efficient Bimanual Handover and Rearrangement via Symmetry-Aware Actor-Critic Learning**. *ICRA, 2023.* [[paper](https://irisli17.github.io/publication/icra23_bimanual/bimanual_handover.pdf)] `RL` `Symmetry` `Sim`
 - **Bi-Manual Manipulation and Attachment via Sim-to-Real Reinforcement Learning**. *arXiv, 2022.* [[paper](https://arxiv.org/abs/2203.08277)] `RL` `Sim-to-Real` `Real` `Sim`
@@ -154,6 +187,10 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Humanoid and Dexterous Bimanual Learning
 
+- **Dexterous Robot Manipulation from Human Demonstrations via Contact-Anchored Retargeting and Residual Policy Learning**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2609.24093)] [[code](https://github.com/DexGEM-Lab/real2sim2real)] `Dexterous` `Human Demonstrations` `RL` `Sim-to-Real` `Bimanual-evaluated` `Real` `Sim`
+  Transfers contact structure from human motion capture and uses residual RL to recover physically feasible robot behavior, including real bimanual tasks.
+- **Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2608.11769)] `Humanoid` `VLA` `Hand Selection` `Robustness` `Sim`
+  Analyzes pose-dependent hand preferences and tests how initial-pose coverage and data composition affect dual-arm policy robustness.
 - **DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2510.08475)] `Humanoid` `Dexterous` `IL` `Video` `Sim`
 - **HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2507.00833)] `Humanoid` `LLM` `Data Generation` `Sim`
 - **Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations**. *arXiv, 2024.* [[paper](https://arxiv.org/abs/2410.02477)] `Humanoid` `Dexterous` `RL` `IL` `Sim`
@@ -161,6 +198,12 @@ Papers are organized by their **primary system contribution**, while tags captur
 
 ## Datasets, Benchmarks, and Platforms
 
+- **MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.17970)] [[code](https://github.com/haraduka/mevion)] `Platform` `Teleoperation` `IL` `Real`
+  Open-source dual-arm data-collection hardware designed for higher-force and faster manipulation, with imitation-learning demonstrations.
+- **DexTele: A Dual-Arm Dexterous Teleoperation System Based on Motion Retargeting and Adaptive Force Control**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2607.05883)] `Platform` `Teleoperation` `VLM` `Dexterous` `Real`
+  Combines learned motion retargeting with VLM-guided adaptive force control for cross-platform dexterous teleoperation.
+- **DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2606.11901)] [[project](https://duobench.github.io/)] `Benchmark` `Dataset` `Coordination` `Real` `Sim`
+  Eleven FR3 Duo tasks across four coordination categories, with stage-based evaluation, teleoperated datasets, and partial real-world reproduction.
 - **BiCoord: A Bimanual Manipulation Benchmark towards Long-Horizon Spatial-Temporal Coordination**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2604.05831)] [[project](https://buaa-colalab.github.io/BiCoord/)] `Benchmark` `Long-Horizon` `Coordination` `Sim`
 - **ST-BiBench: Benchmarking Multi-Stream Multimodal Coordination in Bimanual Embodied Tasks for MLLMs**. *arXiv, 2026.* [[paper](https://arxiv.org/abs/2602.08392)] `Benchmark` `MLLM` `Planning` `Control`
 - **RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation**. *arXiv, 2025.* [[paper](https://arxiv.org/abs/2511.17441)] [[project](https://FlagOpen.github.io/RoboCOIN/)] `Dataset` `Multi-Embodiment` `Real`
